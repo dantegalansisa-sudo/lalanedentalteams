@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:5173/imagenes/director%20medico.jpg\")",
+      "Bash(npx playwright:*)",
+      "Bash(node -e \":*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(cp -r \"c:/Users/dante/OneDrive/Desktop/nexixdentalluxury\" \"c:/Users/dante/OneDrive/Desktop/ceroclinic\")",
+      "Bash(rm -rf \"c:/Users/dante/OneDrive/Desktop/ceroclinic/.git\" \"c:/Users/dante/OneDrive/Desktop/ceroclinic/node_modules\" \"c:/Users/dante/OneDrive/Desktop/ceroclinic/dist\")",
+      "Bash(sed -i 's|/imagenes/director medico.jpg|/imagenes/ceroclinic/ceo.png|g' DirectorSection.tsx)",
+      "Bash(sed -i 's/Dr. Alejandro Reyes — Director Médico/Dra. Bae Cuevas — Directora Médica/g' DirectorSection.tsx)",
+      "Bash(sed -i 's/Director Médico/Directora Médica/g' DirectorSection.tsx)",
+      "Bash(sed -i 's/Dr. Alejandro Reyes M./Dra. Bae Cuevas/g' DirectorSection.tsx)",
+      "Bash(sed -i 's/Dr. Alejandro Reyes/Dra. Bae Cuevas/g' DirectorSection.tsx)",
+      "Bash(sed -i 's/Fundador \\\\& Director Médico/Fundadora \\\\& Directora Médica/g' DirectorSection.tsx)",
+      "Bash(sed -i \"s/Implantología Avanzada/Odontología General/g\" DirectorSection.tsx)",
+      "Bash(sed -i \"s/Estética Dental/Prostodoncia e Implantes/g\" DirectorSection.tsx)",
+      "Bash(sed -i \"s/+15 Años de Experiencia/Estética Dental/g\" DirectorSection.tsx)",
+      "Bash(sed -i 's/Mi misión es que cada paciente salga de nuestra clínica con la/Cada paciente merece una atención personalizada y de calidad./g' DirectorSection.tsx)",
+      "Bash(sed -i 's/mejor versión de su sonrisa. No hacemos tratamientos genéricos —/En CERO Dental nos dedicamos a transformar sonrisas/g' DirectorSection.tsx)",
+      "Bash(sed -i 's/diseñamos sonrisas únicas, porque cada persona merece un resultado/con los más altos estándares de la odontología moderna,/g' DirectorSection.tsx)",
+      "Bash(sed -i 's/que refleje quién es.\"\"/porque tu sonrisa es nuestra mejor carta de presentación.\"\"/g' DirectorSection.tsx)",
+      "Bash(find c:/Users/dante/OneDrive/Desktop/ -maxdepth 4 -type d -iname *lalane*)",
+      "Bash(find c:/Users/dante/OneDrive/Desktop/ -maxdepth 4 -iname *lalane* -type f)",
+      "Bash(cp -r \"c:/Users/dante/OneDrive/Desktop/nexixdentalluxury/\" \"c:/Users/dante/OneDrive/Desktop/lalanedental/\")",
+      "Bash(rm -rf \"c:/Users/dante/OneDrive/Desktop/lalanedental/.git\" \"c:/Users/dante/OneDrive/Desktop/lalanedental/node_modules\")"
+    ]
+  }
+}
